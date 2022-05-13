@@ -33,18 +33,19 @@
         <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label><br>
         <br>
         <p>Mehrwertsteuersatz</p>
+        <br>
         <label for="">19%</label>
-        <input type="radio" name="19%" id="nineteen">
+        <input type="radio" name="19%" id="nineteen"><br><br>
         <label for="">7%</label>
         <input type="radio" name="7%" id="seven"><br><br>
         <p for="">Nettobetrag (Preis ohne MwSt) in Euro</p>
         <input type="number" name="" id="inputNettoBetrag">
-        <input type="button" value="BERECHNEN" onclick="bruttoMwst19()">
+        <input type="button" value="BERECHNEN" onclick="bruttoMwst()">
         <br><br>
         <p>Ergebnis</p>
         <p>Mehrwertsteuerbetrag</p>
-        <p></p>
-        <p>Bruttobetrag (Endpreis)</p>
+        <p id="mwstbetrag"></p>
+        <p id="brutto">Bruttobetrag (Endpreis)</p>
         <p></p>
     </form>
 

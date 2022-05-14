@@ -24,29 +24,30 @@
 
     </main>
 
-    <form action="" onsubmit="return false">
+    <form action="">
         <p>Was soll berechnet werden?</p>
         <br>
-        <input type="radio" name="" id="mwstaufschlagen">
+        <input type="radio" name="mwstcalc" id="mwstaufschlagen">
         <label for="">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label><br>
-        <input type="radio" name="" id="mwstabziehen">
+        <input type="radio" name="mwstcalc" id="mwstabziehen">
         <label for="">Mehrwertsteuer abziehen (Brutto zu Netto)</label><br>
         <br>
         <p>Mehrwertsteuersatz</p>
         <br>
         <label for="">19%</label>
-        <input type="radio" name="19%" id="nineteen"><br><br>
+        <input type="radio" name="mwst" id="nineteen"><br><br>
         <label for="">7%</label>
-        <input type="radio" name="7%" id="seven"><br><br>
-        <p for="">Nettobetrag (Preis ohne MwSt) in Euro</p>
+        <input type="radio" name="mwst" id="seven" value="seven"><br><br>
+        <p id="headlineInputBetrag">Nettobetrag (Preis ohne MwSt) in Euro</p>
         <input type="number" name="" id="inputNettoBetrag">
         <input type="button" value="BERECHNEN" onclick="bruttoMwst()">
         <br><br>
         <p>Ergebnis</p>
         <p>Mehrwertsteuerbetrag</p>
         <p id="mwstbetrag"></p>
-        <p id="brutto">Bruttobetrag (Endpreis)</p>
-        <p></p>
+        <p id="endpreis">Bruttobetrag (Endpreis)</p>
+        <p id="brutto">
+        </p>
     </form>
 
 

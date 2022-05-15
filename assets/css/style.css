@@ -1,9 +1,9 @@
 /* =================================== */
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 html {
   font-size: 100%;
@@ -14,29 +14,50 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
-  /* max-width: 1440px; */
+  font-family: sans-serif;
+}
+
+/* =================================== */
+/* 
+(Oder statt left und right = 0
+Mit with:100%) */
+/* Sticky Navbar */
+/* ======================
+    article - grid areas
+========================*/
+/* ======================
+section - flex in grid
+========================*/
+/* offset-x | offset-y | blur-radius | color */
+body {
+  background-color: #03045e;
+}
+
+h1 {
+  text-align: left;
+  color: rgb(82, 91, 101);
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 form {
-  margin-left: 40%;
+  background-color: whitesmoke;
+  width: 40%;
+  padding: 1vh 2vw 0 2vw;
+  margin: 10vh 30%;
+  font-size: 1.3rem;
+}
+form .input-div,
+form .output-div {
+  border: 1px solid #3b4d50;
+  border-radius: 3px;
+  padding: 10%;
+  margin: 10px;
+}
+form .input-div p:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(5, 5, 5);
 }
 
-/* =================================== */
-/* ------💀--- h•e•a•d•e•r -💀 ---------*/
-/* =================================== */
-
-/* =================================== */
-/* ------🧭-- n•a•v-b•a•r --🧭---------*/
-/* =================================== */
-
-/* =================================== */
-/*---------  m•a•i•n  ----------------*/
-/* =================================== */
-
-/* =================================== */
-/* --------👣 - f•o•o•t•e•r -----------*/
-/* =================================== */
-
-/* =================================== */
-/* --🖥- m•e•d•i•a-q•u•e•r•i•e•s -📲--- */
-/* =================================== */
+/*# sourceMappingURL=style.css.map */

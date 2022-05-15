@@ -3,3 +3,41 @@
 @import "_generals.scss";
 @import "_mixin.scss";
 @import "_variables.scss";
+
+// ---------------------------------------------------------
+body {
+    background-color: $co;
+}
+
+h1 {
+    text-align: left;
+    color: rgb(82, 91, 101);
+    font-size: 1.4rem;
+    line-height: $lh;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 40%;
+    padding: 1vh 2vw 0 2vw;
+    margin: 10vh 30%;
+    font-size: 1.3rem;
+
+    .input-div,
+    .output-div {
+        border: $bo;
+        border-radius: 3px;
+        padding: 10%;
+        margin: 10px;
+    }
+
+    .input-div p:first-child {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgb(5, 5, 5);
+
+    }
+
+
+
+}

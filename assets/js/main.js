@@ -1,3 +1,5 @@
+'use strict';
+
 // ################## variablen ########################
 
 const mwstaufschlagen = document.getElementById('mwstaufschlagen');

@@ -2,8 +2,11 @@
 // *************************************************
 
 //-- colors ----------------
-$primary-color: rgb(47, 66, 238);
-$secondary-color: rgb(62, 193, 23);
+$primary-color: #023e8a;
+$secondary-color: #0077b6;
+
+// background-color: $bg;
+$bg: #daeff3;
 
 
 // -- text -align 
@@ -26,16 +29,13 @@ $fw-med: 300;
 $fw-thick: 600;
 $lh: 1.5;
 // main-color-font
-$co: rgb(103, 88, 88);
+$co: #03045e;
 
 // --border--------------
-$bo: 1px solid black;
+$bo: 1px solid #3b4d50;
 
 // --box-shadow------
 /* offset-x | offset-y | blur-radius | color */
 // box-shadow: 10px 5px 5px black;--------
 
-$bs: 10px 5px 5px black;
-
-// background-color: $bg;
-$bg: rgb(90, 78, 78);
+$bs: 10px 5px 5px #48cae4;
